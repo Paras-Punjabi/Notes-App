@@ -1,0 +1,37 @@
+.informations ul li{
+    color: black;
+    list-style: none;
+    font-size: 30px;
+    margin: 20px;
+}
+.informations{
+    padding: 5px;
+    border-radius: 20px;
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 21px -6px 32px #171616;
+
+}
+
+.informations ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+}
+.link{
+    display: inline-block;
+}
+.image{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background: url('https://avatars.githubusercontent.com/u/81816556?v=4');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
